@@ -9,7 +9,7 @@ This project provides a RESTful API for authentication, user management, banks, 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/nix1947/statementTracker.git)
 cd <project_directory>
 ```
 
@@ -17,7 +17,7 @@ cd <project_directory>
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+ For Windows: venv\Scripts\activate # For Linux source venv/bin/activate 
 ```
 
 ### 3. Install Dependencies
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 5. Create Superuser (Optional)
+### 5. Create Superuser 
 
 ```bash
 python manage.py createsuperuser
@@ -45,6 +45,7 @@ python manage.py runserver
 ```
 
 Now open your browser at: `http://127.0.0.1:8000`
+Admin endpoint at: `http://127.0.0.1:8000`
 
 ---
 
