@@ -49,7 +49,9 @@ Admin endpoint at: `http://127.0.0.1:8000`
 
 ---
 
-## 📃 API Endpoints
+## 📃 API Endpoints Documentation
+**http://localhost:8000/swagger**
+**http://localhost:8000/rdoc**
 
 ### Authentication
 
@@ -102,6 +104,9 @@ curl -X POST http://127.0.0.1:8000/api/users/ \
 ```
 
 ---
+
+![image](https://github.com/user-attachments/assets/a443b129-d6e5-472b-9ad8-6ee121c15682)
+
 
 ## 📖 References
 
